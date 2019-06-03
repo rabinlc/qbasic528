@@ -1,0 +1,12 @@
+ CLS
+ RANDOMIZE TIMER
+
+ num = INT(RND * 100) + 1
+ DO 
+      INPUT "Pick a number between 1 and 100: ", answer
+
+      IF num = answer THEN PRINT "You Got It!"
+      IF num > answer THEN PRINT "Too Small"
+      IF num < answer THEN PRINT "Too big"
+LOOP UNTIL num = answer
+PRINT "Game Over."
