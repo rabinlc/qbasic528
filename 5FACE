@@ -1,0 +1,24 @@
+CLS
+
+ LOCATE 14, 34
+ COLOR 9
+ PRINT "<=>"
+
+ LOCATE 14, 43
+ PRINT "<=>"
+
+ COLOR 11
+ LOCATE 16, 39
+ PRINT "o|o"
+
+ COLOR 4
+ LOCATE 18, 36
+ PRINT "\_______/"
+
+ COLOR 20
+ LOCATE 19, 42
+ PRINT "U"
+
+ LOCATE 1, 1
+ COLOR 16, 1
+ PRINT "Hello World"
