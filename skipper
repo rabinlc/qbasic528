@@ -1,0 +1,3 @@
+PRINT "Press any key to continue"
+WHILE INKEY$=""
+WEND
