@@ -1,0 +1,10 @@
+CLS
+ RANDOMIZE TIMER
+
+ num = INT(RND * 20) + 1
+
+ FOR count = 1 TO 5
+  INPUT "Pick a number between 1 and 20: ", answer
+  IF answer = num THEN PRINT "You win after";count;"guesses!": END
+ NEXT
+ PRINT "You lose
