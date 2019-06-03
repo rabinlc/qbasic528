@@ -1,0 +1,18 @@
+CLS
+ a = 15
+ b = 10
+ c = 12.2
+ d = 1.618
+ 
+ PRINT a * b + c   'these two are different
+ PRINT a * (b + c)
+ 
+ PRINT
+ 
+ PRINT b - c / d   'these two are different
+ PRINT (b - c) / d
+ 
+ PRINT
+ 
+ PRINT a * b - c * d / a + d   'these two are the same
+ PRINT (a * b) - ((c * d) / a) + d
