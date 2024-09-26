@@ -1,0 +1,14 @@
+CLS
+INPUT "ANY WORD"; A$
+A$ = UCASE$(A$)
+FOR I = 1 TO LEN(A$)
+    B$ = MID$(A$, I, 1)
+    IF B$ = "A" OR B$ = "E" OR B$ = "I" OR B$ = "O" OR B$ = "U" THEN
+        B$ = ""
+    ELSE
+        C$ = C$ + B$
+    END IF
+
+NEXT I
+PRINT C$
+
